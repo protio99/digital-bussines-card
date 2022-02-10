@@ -1,13 +1,25 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.info--card {
+  display: flex;
+  flex-direction: column;
+}
+
+.info--card-btn {
+  display: flex;
+}
+
+.info--card-btn-linkedin {
+  background-color: blue;
+}
+
+.info--card-img {
+  width: 15rem;
+  height: 14rem;
+  overflow: hidden;
+}
+.info--card-profileph {
+  width: 100%;
 }
