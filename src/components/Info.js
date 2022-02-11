@@ -17,10 +17,13 @@ export default function Info() {
             </div>
             <div className='info--card-btn'>
                 <div className='info--card-btn-mail'>
-                    <img src={mail} alt='mail'></img>
+                    <img src={mail} alt='mail'></img> 
+                    <p>Email</p>
                 </div>
                 <div className='info--card-btn-linkedin'>
                     <img src={linkedin} alt='linkedin'></img>
+                    <p>LinkedIn</p>
+
                 </div>
             </div>
         </div>

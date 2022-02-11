@@ -3,12 +3,25 @@
   align-items: center;
   flex-direction: column;
   width: 19rem;
-  height: 80vh;
+  height: 85vh;
   background-color: #23252c;
+  border-radius: 10px;
 }
 
 .father--app {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 90vh;
+  background-color: #23252C;
+  width: 550px;
+  margin: auto;
+  
+}
+
+#root{
+  height: 100vh;
+  background-color: #1C1C1C;
+  display: flex;
+  
 }

@@ -1,5 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .info--card {
@@ -9,17 +14,100 @@ body {
 
 .info--card-btn {
   display: flex;
+  justify-content: space-around;
+  padding: 0 2px 0 2px;
+  
+}
+.info--card-btn-mail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #D1D5DB ;
+  border-radius: 6px;
+  width: 115px;
+  height: 34px;
+  
+}
+.info--card-btn-mail > p {
+  font-weight: 500;
+}
+.info--card-btn-mail > img{
+  width: 16px;
+  
+
 }
 
+.info--card-btn-linkedin > p {
+  font-weight: 500;
+  color: white;
+}
 .info--card-btn-linkedin {
-  background-color: blue;
+  background-color: #297FE5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-color: #F47D27;
+    /* border-width: 1px; */
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+  
 }
 
 .info--card-img {
-  width: 15rem;
+  width: 19rem;
   height: 14rem;
   overflow: hidden;
+  
 }
 .info--card-profileph {
   width: 100%;
+  border-radius: 10px;
+}
+
+.info--card-text{
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info--card-text > h1{
+  font-size: 25px;
+  font-weight: bold;
+  
+  margin: 1.25rem 0 0 0;
+  
+}
+.info--card-text > h2{
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F47D27;
+  margin: 0.39rem 0 0 0;
+
+}
+.info--card-text > h3{
+  font-size: 10.24px;
+  font-weight: 400;
+  color: #4A4E74;
+  margin: 0.6rem 0 1rem 0;
+  
+}
+
+.info--card-btn{
+  background-color: #F5F5F5;
+
+}
+
+.info--card-about{
+  background-color: #F5F5F5;
+
+}
+
+.info--card-interests{
+  background-color: #F5F5F5;
+
 }
