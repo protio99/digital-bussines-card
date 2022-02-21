@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 19rem;
-  height: 85vh;
+  width: 19.8rem;
+  height: 48.75rem;
   background-color: #23252c;
   border-radius: 10px;
 }
@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 54.25rem;
   background-color: #23252C;
   width: 550px;
   margin: auto;
@@ -20,7 +20,7 @@
 }
 
 #root{
-  height: 100vh;
+
   background-color: #1C1C1C;
   display: flex;
   

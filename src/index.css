@@ -15,7 +15,7 @@ body {
 .info--card-btn {
   display: flex;
   justify-content: space-around;
-  padding: 0 2px 0 2px;
+  padding:  2px 33px;
   
 }
 .info--card-btn-mail{
@@ -58,8 +58,8 @@ body {
 }
 
 .info--card-img {
-  width: 19rem;
-  height: 14rem;
+  width: 19.81rem;
+  height: 19.81rem;
   overflow: hidden;
   
 }
@@ -104,10 +104,52 @@ body {
 
 .info--card-about{
   background-color: #F5F5F5;
+  padding: 25px 35px 1px 35px;
+  
 
 }
 
+.info--card-about > h2{
+  color: #2B283A;
+  font-weight: 700;
+  font-size: 1rem;
+
+}
+.info--card-about > p{
+ 
+  font-weight: 400;
+  font-size: 0.64rem;
+  color: #4A4E74;
+
+}
 .info--card-interests{
   background-color: #F5F5F5;
+  padding: 2px 35px 31px 35px;
 
+}
+.info--card-interests >p{
+  font-weight: 400;
+  font-size: 0.64rem;
+  color: #4A4E74;
+}
+.info--card-interests >h2{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2B283A;
+  
+}
+
+
+.info--card-footer {
+  background-color: #D5D4D8;
+  height: 4rem;
+  width: 19.8rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 72px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.info--card-footer > img {
+  width: 25px;
 }
